@@ -1,16 +1,9 @@
 import React from "react";
-import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs'
-import { FaFire, FaPoo, FaCertificate, FaArrowUp, FaRegUser, FaCode,
-      FaRegStar, FaBookReader, FaBook, FaRegAddressBook} from 'react-icons/fa'
+import { FaCertificate, FaArrowUp, FaRegUser, FaCode, FaBookReader} from 'react-icons/fa'
 import './index.scss'
 import { Link, animateScroll as scroll } from "react-scroll";
 
-    // const allRefs = {
-    //   greetings: greetingsRef,
-    //   certificates: certificatesRef,
-    //   infoCard: infoCardRef,
-    //   projectCard: projectCardRef,
-    // }
+
 const SideBar = ({inViews}) => {
     console.log(inViews);
     return (
