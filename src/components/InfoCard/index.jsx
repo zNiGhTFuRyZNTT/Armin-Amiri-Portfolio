@@ -52,15 +52,15 @@ return (
                     </div>
                 </div>
                 <div className=" mt-10 py-10 border-t border-blueGray-200 text-center">
-                    <div className="flex flex-wrap justify-center text-center ">
-                        <div className="bg-info-txt-container w-full lg:w-9/12 px-4">
+                    <div className="mb-5 flex flex-wrap justify-center text-center ">
+                        <div className=" bg-info-txt-container w-full lg:w-9/12 px-4">
                             <styledWord word={"Armin"} />
-                            <p className="bg-info-description mb-4 text-md leading-relaxed text-blueGray-700">
+                            <p className="bg-info-description ml-9 text-md leading-relaxed text-blueGray-700">
                                 <span>
-                                    <p className="cert-header mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-                                    <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
-                                        Armin
-                                    </span>
+                                    <p className=" mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+                                        <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
+                                            Armin
+                                        </span>
                                     </p>
                                 </span>
                                 
