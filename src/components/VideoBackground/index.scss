@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.VideoBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    transition: 3s .7s;
+    z-index: -1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.overlay-2nd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 3s .7s;
+    background-color: rgba(0, 0, 0, 0.932);
+    
+}

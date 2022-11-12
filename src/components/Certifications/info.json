@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Harvard University - CS50W Web Programming Course Professional Certificate",
+        "description": "Advanced web programming with Python and Javascript, using Django and vanilla JavaScript",
+        "certUrl": "https://courses.edx.org/certificates/0540f2b5e3284d6a8cd145d66211569b"
+    },
+    {
+        "name": "Harvard University - CS50W Web Programming Course Normal Certificate",
+        "description": "Advanced web programming with Python and Javascript, using Django and vanilla JavaScript, Normal Certificate",
+        "certUrl": "https://certificates.cs50.io/c66fffd0-34c6-4a5a-a57a-96cad8f08428.pdf?size=letter"
+    },
+    {
+        "name": "Sharif University - Fundamentals of C Programming Language",
+        "description": "Task-Oriented C programming course including a number of projects.",
+        "certUrl": "https://maktabkhooneh.org/media/students/certificates/1655297179719234.png"
+    },
+    {
+        "name": "Quera Advanced Front-End Course with React Framework",
+        "description": "Advanced Project-Oriented React course basic to advanced.",
+        "certUrl": "https://quera.org/certificate/TrhiaOMb/"
+    },
+    {
+        "name": "Quera Advanced Back-End Course with Django Framework",
+        "description": "Advanced Project-Oriented Back-End development course using Django Framework.",
+        "certUrl": "https://quera.org/certificate/axhV0uZQ/"
+    },
+    {
+        "name": "Quera Python problem-solving and algorithmic thinking course",
+        "description": "Task-Oriented course in Fundamentals of Python programming, focused on problem solving and algorithmic thinking.",
+        "certUrl": "https://quera.org/certificate/GVpWNDcX/"
+    },
+    {
+        "name": "Quera Advanced Python Object-Oriented Programming Course",
+        "description": "Advanced Object-Oriented Python programming course including tasks.",
+        "certUrl": "https://quera.org/certificate/YINx9vTf/"
+    },
+    {
+        "name": "Fundamentals of Front-End Development",
+        "description": "Fundamentals of Front-End web development using html, css, Vanilla JavaScript, and JQuery.",
+        "certUrl": "https://quera.org/certificate/COad3c6N/"
+    }
+]

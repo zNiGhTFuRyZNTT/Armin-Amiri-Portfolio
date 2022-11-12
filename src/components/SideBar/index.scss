@@ -1,0 +1,33 @@
+.ziresh {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 1s .1s ease-out;
+
+}
+.transition {
+    transition: 1s .1s ease-in-out;
+}
+.active-icon {
+    --tw-bg-opacity: 1;
+    background-color: rgb(28 100 242 / var(--tw-bg-opacity));
+    border-radius: 0.75rem/* 12px */;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.navbar-bg-color {
+    // background-color: #010818;
+    background-color: #0d0d13;
+    // background-color: hsla(222, 92%, 5%, 0.801);
+}
+
+@media only screen and (max-width: 1024px) {
+    // .sidebar {
+    //     display: none;
+    // }
+    .sidebar {
+        width: 50px;
+    }
+    .sidebar-icon {
+        width: 37px;
+        height: 37px;
+    }
+}

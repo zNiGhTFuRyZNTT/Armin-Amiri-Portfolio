@@ -1,0 +1,62 @@
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn .6s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+    font-family: 'Source Code Pro';
+    font-size: 2vw;
+
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+    font-family: 'Source Code Pro';
+    font-size: 2vw;
+    &:hover {
+        animation: rubberBand .8s;
+        color: hsl(210, 80%, 42%);
+    }
+}
+
+.words span:nth-child(1) {
+    font-size: 3vw;
+    color: hsl(210, 80%, 42%);
+}
+
+@media only screen and (max-width: 950px) {
+    .words span:nth-child(1) {
+        font-size: 6.5vw;
+        color: hsl(210, 80%, 42%);
+    }
+    .text-animate-hover, .text-animate { 
+       font-size: 5vw; 
+    }
+ 
+ }
+
+ @media only screen and (max-width: 300px) {
+    .text-animate-hover, .text-animate { 
+       min-width: 5px;
+    }
+ 
+ }
+
+@media only screen and (max-width: 800px) {
+    .words span:nth-child(1) {
+        font-size: 8vw;
+        color: hsl(210, 80%, 42%);
+    }
+    .text-animate-hover, .text-animate { 
+       font-size: 5vw; 
+    }
+ 
+}
+
+@for $i from 1 through 35 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i / 10}s;
+    }
+}

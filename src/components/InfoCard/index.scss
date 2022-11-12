@@ -1,0 +1,50 @@
+
+.profile-pic {
+    width: 32vh;
+}
+
+.header-text-center {
+    margin-top: 70px;
+}
+
+.makeCenter {
+    width: 50%;
+    margin: 0 auto;
+}
+.codeblock {
+    margin: 0 auto;
+    width: 600px;
+}
+.icon {
+    width: 100px !important;
+}
+@media only screen and (max-width: 650px) {
+
+    .codeblock {
+        margin: 0 auto;
+        width: 400px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 430px) {
+
+    .codeblock {
+        margin: 0 auto;
+        width: 90vw;
+        font-size: 11px;
+    }
+    #text {
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 338px) {
+
+    .codeblock {
+        margin: 0 auto;
+        width: 90vw;
+        font-size: 8px;
+    }
+    #text {
+        font-size: 8px;
+    }
+}
