@@ -17,9 +17,9 @@ const Certifications = ( {inView} ) => {
     const certificatesImgs = [harvardProImg, harvardNormalImg, cImg, reactImg, djangoImg, algorithmicPyImg, objPythonImg, frontEndImg]
     let i = 0
     return (
-        <div className={` ${inView ? "transition" : "ziresh"} certifications-container dark `}>
+        <div className={` ${inView ? "cert-transition" : "cert-ziresh"} certifications-container dark `}>
             {certificatesObjs.map(cert => {
-                return <div className={`cert-card ${inView ? `delay-${i++}` : 'delay-before'} m-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700`}>
+                return <div className={`cert-card ${inView ? `cert-delay-${i++}` : 'cert-delay-before'} m-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700`}>
                     <Zoom>
                         <img className="rounded-t-lg" src={certificatesImgs[certificatesObjs.indexOf(cert)]} alt="project-photo"/>
                     </Zoom>

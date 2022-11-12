@@ -77,7 +77,7 @@ return (
                                 My coding record is 13 hours in a row with a maximum of 10 minute long rests :)
                                 Like I said, I'm addicted, I feed on code.
                                 I would apreciate any job opportunity, feel free to contact me if you have an offer for a role that
-                                you feel like matches my skills. I'm so patienate for working and I make sure that if my skills match your role, I'll be an asset to your organisation.
+                                you feel like matches my skills. I'm so passionate for working and I make sure that if my skills match your role, I'll be an asset to your organisation.
                             </p>
                         </div>
                     </div>

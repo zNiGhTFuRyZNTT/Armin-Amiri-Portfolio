@@ -60,15 +60,7 @@
     }
 
 }
-.ziresh {
-    opacity: 0;
-    transform: translateY(100px);
-    transition: 1s .1s ease-out;
 
-}
-.transition {
-    transition: 1s .1s ease-in-out;
-}
 @media only screen and (max-width: 545px) {
     .certifications-container {
         grid-template-columns: 45% 45%;
@@ -177,12 +169,23 @@
     }
 }
 
-.delay-before {
+.cert-ziresh {
+    opacity: 0;
+    transform: translateY(120px);
+    transition: 1s .1s ease-out;
+
+}
+.cert-transition {
+    transition: 1s .1s ease-in-out;
+}
+
+.cert-delay-before {
+    transform: translateY(80px);
     opacity: 0;
 }
 @for $i from 1 through 35 {
-    .delay-#{$i} {
+    .cert-delay-#{$i} {
         opacity: 1;
-        transition: #{calc($i / 10) + 0.7}s #{calc($i / 10) + 0.2}s;
+        transition: #{calc($i / 10) + 0.7}s #{calc($i / 10) + 0.3}s;
     }
 }
