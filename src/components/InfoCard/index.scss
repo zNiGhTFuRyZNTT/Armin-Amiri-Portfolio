@@ -25,6 +25,14 @@
         width: 400px;
         font-size: 12px;
     }
+    .picture-container {
+        width: 55vw;
+    }
+    .bg-info-description {
+        width: 80vw ;
+        font-size: 11px !important;
+        font-weight: 600 !important;
+    }
 }
 @media only screen and (max-width: 430px) {
 
@@ -35,6 +43,17 @@
     }
     #text {
         font-size: 8px;
+    }
+    .bg-info-description {
+        width: 80vw ;
+    }
+    .bg-info-txt-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        break-word: break-word;
+        padding-right: 35px !important;
     }
 }
 @media only screen and (max-width: 338px) {

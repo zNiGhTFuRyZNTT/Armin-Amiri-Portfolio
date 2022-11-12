@@ -1,13 +1,13 @@
 // @flow 
 import React from 'react';
-
+import './index.scss'
 const FreeLanceInfo = () => {
     return (
-        <div className="flex flex-wrap justify-center text-center px-10 bg-white">
+        <div className="flex flex-wrap justify-center text-center px-3 bg-white">
             <div className="w-full lg:w-9/12 px-4">
-                <h1 className="cert-header mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl"><span class="underline underline-offset-3 decoration-8 decoration-blue-400">Just a comment</span></h1>
+                <h1 className="comment-header mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl"><span class="underline underline-offset-3 decoration-8 decoration-blue-400">Just a comment</span></h1>
                 <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                    <span className="cert-header mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl">
+                    <span className=" mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl">
                         <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
                             F
                         </span>

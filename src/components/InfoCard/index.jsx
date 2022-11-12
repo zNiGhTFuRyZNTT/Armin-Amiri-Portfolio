@@ -17,7 +17,7 @@ return (
             <div className={`px-6 ${inView ? "transition" : "ziresh"}`}>
                 <div className="flex flex-wrap justify-center">
                     <div className="w-full px-4 flex justify-center">
-                        <div className="profile-pic relative h-auto align-middle  -m-16 -ml-17 lg:-ml-16 max-w-150-px">
+                        <div className="picture-container profile-pic relative h-auto align-middle  -m-16 -ml-17 lg:-ml-16 max-w-150-px">
                             <img alt="Grrrr" src={Armin}
                                 className="rounded-full border-none shadow-xl" />
                         </div>
@@ -51,11 +51,11 @@ return (
                         University of La La Land
                     </div>
                 </div>
-                <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
-                    <div className="flex flex-wrap justify-center text-center px-10">
-                        <div className="w-full lg:w-9/12 px-4">
+                <div className=" mt-10 py-10 border-t border-blueGray-200 text-center">
+                    <div className="flex flex-wrap justify-center text-center ">
+                        <div className="bg-info-txt-container w-full lg:w-9/12 px-4">
                             <styledWord word={"Armin"} />
-                            <p className="mb-4 text-md leading-relaxed text-blueGray-700">
+                            <p className="bg-info-description mb-4 text-md leading-relaxed text-blueGray-700">
                                 <span>
                                     <p className="cert-header mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
                                     <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
@@ -63,6 +63,7 @@ return (
                                     </span>
                                     </p>
                                 </span>
+                                
                                 means Relaxed in Persian :). In the name of Guido van Rossum,
                                 I have started learning the Python programming language at the age of 16, and the more 
                                 I got immersed in coding and problem-solving, the more I fell in love with programming. 

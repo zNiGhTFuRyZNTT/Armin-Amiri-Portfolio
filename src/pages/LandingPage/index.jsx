@@ -109,7 +109,7 @@ const LandingPage = () => {
             {/* < -- end -- >  */}
 
             {/* < -- My comment -- >  */}
-            <div className="freelance-inf w-screen bg-white px-6 ">
+            <div className="freelance-inf w-screen bg-white  ">
               <FreeLanceInfo />
             </div>
             {/* < -- end -- >  */}

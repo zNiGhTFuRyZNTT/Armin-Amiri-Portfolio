@@ -11,9 +11,13 @@ const SkillsRating = ({inView, windowSize}) => {
         if (barWidth !== 250)
             setBarWidth(250)
     }
-    if ( 355 < windowSize.innerWidth && windowSize.innerWidth < 950) {
+    if ( 580 < windowSize.innerWidth && windowSize.innerWidth < 950) {
         if (barWidth !== 200)
             setBarWidth(200)
+    }
+    if ( 355 < windowSize.innerWidth && windowSize.innerWidth < 580) {
+        if (barWidth !== 150)
+            setBarWidth(150)
     }
     if (windowSize.innerWidth < 355) {
         if (barWidth !== 100)    
