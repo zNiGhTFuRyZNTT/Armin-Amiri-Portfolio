@@ -64,7 +64,7 @@ return (
                                     </p>
                                 </span>
                                 means Relaxed in Persian :). In the name of Guido van Rossum,
-                                I started learning the Python programming language at the age of 16, and the more 
+                                I have started learning the Python programming language at the age of 16, and the more 
                                 I got immersed in coding and problem-solving, the more I fell in love with programming. 
                                 I was practicing and learning Python for two years morning and night at the same time as applying to migrate to Australia.
                                 After some time, I slowly got attracted to Javascript and the interesting syntax of this 
