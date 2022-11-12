@@ -37,7 +37,7 @@ return (
                         <div className="codeblock">
                             <CopyBlock
                                 language="js"
-                                text={'//Work Availabality\n let availabe = true \n// Programming Languages\n ["Javascript", "Python"].forEach(language => `${language} Developer`)\n // Spoken Languages\n const spokenLangs = ["Perisan", "English"]\n // Work and Eduaction\n let [educationStatus, workStatus] = ["Recent graduate", "Unemployed"]\n // Contact Deatils \n const contactDatils = {\nphoneNum: 0403444370,\n email: "arminamiri11228@gmail.com"\n}\n // Contact me through phone or email for any inquiries or job oportunities'}
+                                text={'//Work Availabality\n let availabe = true \n// Programming Languages\n ["Javascript", "Python"].forEach(language => `${language} Developer`)\n // Spoken Languages\n const spokenLangs = ["Perisan", "English"]\n // Work and Eduaction\n let [educationStatus, workStatus] = ["Recent graduate", "Unemployed"]\n // Contact Deatils \n const contactDatils = {\nphoneNum: "+61403444370",\n email: "arminamiri11228@gmail.com"\n}\n // Contact me through phone or email for any inquiries or job oportunities'}
                                 showLineNumbers={true}
                                 theme={dracula}
                                 wrapLines={true}
