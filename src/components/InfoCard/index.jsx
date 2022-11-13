@@ -32,7 +32,7 @@ return (
                         Melbourne, Australia
                     </div>
                     <div className="mb-2 text-blueGray-600 mt-10">
-                        <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400">Backgroound Information</i>
+                        <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400">Background Information</i>
                         {/* ["Javascript", "Python"].forEach(language =&gt; `$&#123;language&#125; Developer` ) */}
                         <div className="codeblock">
                             <CopyBlock
