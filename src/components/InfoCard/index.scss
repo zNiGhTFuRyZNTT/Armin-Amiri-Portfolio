@@ -18,6 +18,10 @@
 .icon {
     width: 100px !important;
 }
+
+.bg-info-nametitle {
+    font-size: 40px !important;
+}
 @media only screen and (max-width: 650px) {
 
     .codeblock {
@@ -32,6 +36,9 @@
         width: 80vw ;
         font-size: 11px !important;
         font-weight: 600 !important;
+    }
+    .bg-info-nametitle {
+        font-size: 30px !important;
     }
 }
 @media only screen and (max-width: 430px) {

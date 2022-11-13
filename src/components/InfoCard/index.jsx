@@ -56,13 +56,13 @@ return (
                         <div className=" bg-info-txt-container w-full lg:w-9/12 px-4">
                             <styledWord word={"Armin"} />
                             <p className="bg-info-description ml-9 text-md leading-relaxed text-blueGray-700">
-                                <span>
-                                    <p className=" mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-                                        <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
-                                            Armin
-                                        </span>
-                                    </p>
-                                </span>
+
+                                <p className="bg-info-nametitle mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+                                    <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
+                                        Armin
+                                    </span>
+                                </p>
+
                                 
                                 means Relaxed in Persian :). In the name of Guido van Rossum,
                                 I have started learning the Python programming language at the age of 16, and the more 
