@@ -5,11 +5,10 @@ import phone1 from './phone/phone1.mp4'
 import phone2 from './phone/phone2.mp4'
 import phone3 from './phone/phone3.mp4'
 import phone4 from './phone/phone4.mp4'
-import phone5 from './phone/phone5.mp4'
 
 const Videos = {
     Desktop: [desktop1, desktop2, desktop3],
-    Phone: [phone1, phone2, phone3, phone4, phone5],
+    Phone: [phone1, phone2, phone3, phone4],
 }
 export default Videos
 
