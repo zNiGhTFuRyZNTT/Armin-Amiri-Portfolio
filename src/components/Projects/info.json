@@ -41,7 +41,7 @@
     },
     {
         "name": "Chefer",
-        "description": "a Very simple React-Electron multi-platform desktop application which user is able to login and add food recipes. it was my first react-electron practice and the code is exteremly messy and far from react standard practices.",
+        "description": "a Very simple React-Electron multi-platform desktop application which user is able to login and add food recipes. it was my first react-electron practice and the code is extremely messy and far from react standard practices.",
         "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Chefer"
     }
 ]

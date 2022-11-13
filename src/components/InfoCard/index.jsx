@@ -76,7 +76,7 @@ return (
                                 I live in Melbourne and I am a code junkie who will soon forget my mother tongue and speak JavaScript.
                                 My coding record is 13 hours in a row with a maximum of 10 minute long rests :)
                                 Like I said, I'm addicted, I feed on code.
-                                I would apreciate any job opportunity, feel free to contact me if you have an offer for a role that
+                                I would appreciate any job opportunity, feel free to contact me if you have an offer for a role that
                                 you feel like matches my skills. I'm so passionate for working and I make sure that if my skills match your role, I'll be an asset to your organisation.
                             </p>
                         </div>
