@@ -5,8 +5,10 @@ import {
   Link,
 } from "react-router-dom";
 import { LandingPage, NotFound } from './pages';
+import { inject } from '@vercel/analytics';
 
 function App() {
+  inject();
   return (
     <div className="App">
       <Routes>
