@@ -5,7 +5,7 @@ import {
   Link,
 } from "react-router-dom";
 import { LandingPage, NotFound } from './pages';
-import { inject } from '@vercel/analytics';
+import { Analytics } from '@vercel/analytics/react';
 inject();
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         {/* TODO add Not Found */}
       </Routes>
+      <Analytics />
     </div>
   )
 }
