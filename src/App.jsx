@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { LandingPage, NotFound } from './pages';
 import { Analytics } from '@vercel/analytics/react';
-inject();
+
 
 function App() {
   return (
