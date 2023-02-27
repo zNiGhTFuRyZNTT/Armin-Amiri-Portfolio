@@ -4,7 +4,7 @@ import SquareBackground from './SquareBackground';
 import InfoCard from './InfoCard';
 import Certifications from './Certifications';
 import SideBar from './SideBar';
-import FreeLanceInfo from './FreeLanceInfo';
+import BackgroundInfo from './BackgroundInfo';
 import Projects from './Projects';
 import SkillsRating from './SkillsRating';
 import Footer from './Footer';
@@ -16,7 +16,7 @@ export {
     InfoCard, 
     Certifications, 
     SideBar, 
-    FreeLanceInfo, 
+    BackgroundInfo, 
     Projects,
     SkillsRating,
     Footer

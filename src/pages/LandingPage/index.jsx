@@ -7,7 +7,7 @@ import {
     InfoCard, 
     Certifications, 
     SideBar, 
-    FreeLanceInfo, 
+    BackgroundInfo, 
     Projects,
     SkillsRating,
     Footer,
@@ -110,7 +110,7 @@ const LandingPage = () => {
 
             {/* < -- My comment -- >  */}
             <div className="freelance-inf w-screen bg-white  ">
-              <FreeLanceInfo />
+              <BackgroundInfo />
             </div>
             {/* < -- end -- >  */}
 

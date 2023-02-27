@@ -9,7 +9,7 @@ import {
     faLinkedin,
 
 } from "@fortawesome/free-brands-svg-icons";
-
+import { faUniversity } from "@fortawesome/free-solid-svg-icons";
 
 const InfoCard = ({ inView }) => {
 return (
@@ -46,38 +46,33 @@ return (
                         </div>
 
                     </div>
-                    <div className="mb-2 text-blueGray-600">
-                        <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
-                        University of La La Land
+                    <div className="flex flex-col mt-6 items-center mb-2 w-full text-blueGray-600">
+                        <div className="flex items-center">
+                        <FontAwesomeIcon icon={faUniversity} className="mr-2 text-lg text-blueGray-400" />
+                        <h1>Studying at <span className="font-medium whitespace-nowrap">Swinburne University</span></h1>
+                        </div>
                     </div>
                 </div>
                 <div className=" mt-10 py-10 border-t border-blueGray-200 text-center">
                     <div className="mb-5 flex flex-wrap justify-center text-center ">
                         <div className=" bg-info-txt-container w-full lg:w-9/12 px-4">
                             <styledWord word={"Armin"} />
-                            <p className="bg-info-description ml-9 text-md leading-relaxed text-blueGray-700">
+                            <p className="bg-info-description text-left ml-9 text-md leading-relaxed text-blueGray-700">
 
-                                <p className="bg-info-nametitle mb-4 text-xl w-10 font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+                                <p className="flex flex-row bg-info-nametitle mb-4 text-xl w-full font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
                                     <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
-                                        Armin
+                                        I'm Armin
                                     </span>
                                 </p>
 
                                 
-                                means Relaxed in Persian :). In the name of Guido van Rossum,
-                                I have started learning the Python programming language at the age of 16, and the more 
-                                I got immersed in coding and problem-solving, the more I fell in love with programming. 
-                                I was practicing and learning Python for two years morning and night at the same time as applying to migrate to Australia.
-                                After some time, I slowly got attracted to Javascript and the interesting syntax of this 
-                                language and its use and importance in the industry convinced me to start learning it. Although it's strange, I started learning Js 
-                                directly by learning Node because I was so interested and learned quickly.
-                                For a while, I thought that I hated web development, but after learning about React, my path changed.
+                                a dedicated software developer with expertise in Python, JavaScript, and Node. My passion for programming ignited during my early teenage years and has only grown stronger since then. Guided by my thirst for knowledge and problem-solving skills, I immersed myself in Python for two years, honing my skills with tireless determination.
 
-                                I live in Melbourne and I am a code junkie who will soon forget my mother tongue and speak JavaScript.
-                                My coding record is 13 hours in a row with a maximum of 10 minute long rests :)
-                                Like I said, I'm addicted, I feed on code.
-                                I would appreciate any job opportunity, feel free to contact me if you have an offer for a role that
-                                you feel like matches my skills. I'm so passionate for working and I make sure that if my skills match your role, I'll be an asset to your organisation.
+                                As I continued to learn and explore, I discovered the beauty of JavaScript, captivated by its unique syntax and industry relevance. My interest in Node led me to learn JavaScript directly, and I quickly gained proficiency in the language. Although I initially thought I disliked web development, my outlook changed after I discovered React, which shifted my path towards a career in web development.
+
+                                I'm based in Melbourne and have a strong passion for coding. My coding record speaks for itself, with a staggering 13-hour stretch of uninterrupted work and only brief 10-minute breaks. My expertise and dedication to programming make me a valuable asset to any organization, and I'm constantly seeking new challenges and opportunities to grow.
+
+                                If you're searching for a talented software developer with a strong work ethic and a passion for programming, look no further. I'm currently seeking new opportunities to further develop my skills, and I welcome any job opportunities that align with my abilities. If you're interested in collaborating, don't hesitate to contact me.
                             </p>
                         </div>
                     </div>
