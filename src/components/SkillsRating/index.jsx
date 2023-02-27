@@ -31,7 +31,7 @@ const SkillsRating = ({inView, windowSize}) => {
         { type: 'C', level: 70/100 * barWidth },
 
         { type: 'Django', level: 80/100 * barWidth },
-        { type: 'React Js', level: 100/100 * barWidth },
+        { type: 'React Js', level: 90/100 * barWidth },
         { type: 'Electron Js', level: 80/100 * barWidth },
         { type: 'Node Js', level: 100/100 * barWidth },
         { type: 'Tailwind Css', level: 90/100 * barWidth },
