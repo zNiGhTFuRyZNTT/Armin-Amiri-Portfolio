@@ -27,7 +27,7 @@ const SkillsRating = ({inView, windowSize}) => {
     // let barWidth = 300
     const skills = [
         { type: 'Python', level: 100/100 * barWidth },
-        { type: 'Javascript', level: 90/100 * barWidth },
+        { type: 'Javascript', level: 100/100 * barWidth },
         { type: 'C', level: 70/100 * barWidth },
 
         { type: 'Django', level: 80/100 * barWidth },
