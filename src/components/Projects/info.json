@@ -40,8 +40,8 @@
         "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Vpn-Create"
     },
     {
-        "name": "Chefer",
-        "description": "a Very simple React-Electron multi-platform desktop application which user is able to login and add food recipes. it was my first react-electron practice and the code is extremely messy and far from react standard practices.",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Chefer"
+        "name": "create-telebot-app",
+        "description": "A CLI app which generates a boilerplate telegram bot project which uses telebot as its main module. It comes with built-in administration system, pre-made commands, Sqlite3 database, Automatic user management in database and user blacklist.",
+        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/create-telebot-app"
     }
 ]
