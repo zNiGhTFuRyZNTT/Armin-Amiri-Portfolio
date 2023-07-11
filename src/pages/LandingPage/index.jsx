@@ -12,13 +12,22 @@ import {
     SkillsRating,
     Footer,
 } from "../../components";
-
+import { ClipLoader  } from 'react-spinners';
 import useIntersection from '../../hooks/useIntersection'
 
 
 
 
 const LandingPage = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulating the delay of loading data
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
     const greetings = ['Hello friend,','Welcome to my portfolio.']
     const greetingsRef = useRef()
     const greetingInView = useIntersection(greetingsRef)
@@ -64,7 +73,11 @@ const LandingPage = () => {
     console.log(inViews);
 
     return (
-        <div className="landingPage"> 
+      <>
+      <div className={`loading ${!isLoading && "disappear"}`}>
+        <ClipLoader color="#1c64f2" />
+      </div>
+      <div className="landingPage"> 
           <div className={!greetingInView ? "transition-all ease-out duration-300 opacity-100": "opacity-0 transition-all ease-in duration-450 translate-x-100"}>
             {!(windowSize.innerWidth < 535) && <SideBar inViews={inViews} />} {/* TODO Slide from left to right animation */}
           </div>
@@ -125,9 +138,9 @@ const LandingPage = () => {
 
           </div>
 
-          {/* TODO Add Work Experience and Skills Rating, at the end add recent projects */}
           <Footer />
         </div>
+      </>
     )
 }
  

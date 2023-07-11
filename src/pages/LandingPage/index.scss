@@ -1,5 +1,20 @@
+.loading {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000207;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
 
-
+}
+.disappear {
+    opacity: 0;
+}
 .greetings {
     position: relative;
     width: 100%;
