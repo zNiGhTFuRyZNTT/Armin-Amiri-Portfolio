@@ -23,9 +23,11 @@ const LandingPage = () => {
 
   useEffect(() => {
     // Simulating the delay of loading data
-    setTimeout(() => {
+    const timeout = setTimeout(() => {
       setIsLoading(false);
     }, 2000);
+
+    return () => clearTimeout(timeout)
   }, []);
 
     const greetings = ['Hello friend,','Welcome to my portfolio.']
