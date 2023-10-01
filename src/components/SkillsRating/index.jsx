@@ -3,7 +3,7 @@ import './index.scss'
 
 const SkillsRating = ({inView, windowSize}) => {
     const [barWidth, setBarWidth] = useState(300)
-    console.log(barWidth);
+    // console.log(barWidth);
 
 
 
@@ -27,7 +27,8 @@ const SkillsRating = ({inView, windowSize}) => {
     // let barWidth = 300
     const skills = [
         { type: 'Python', level: 100/100 * barWidth },
-        { type: 'Javascript', level: 100/100 * barWidth },
+        { type: 'JavaScript', level: 100/100 * barWidth },
+        { type: 'TypeScript', level: 100/100 * barWidth },
         { type: 'C', level: 70/100 * barWidth },
 
         { type: 'Django', level: 80/100 * barWidth },
@@ -47,9 +48,9 @@ const SkillsRating = ({inView, windowSize}) => {
     return (
         <div className={`${inView ? "transition flex flex-col justify-center" : "ziresh"}`}>
             <div className={`skills-container`}>
-                {skills.map(skill => {
+                {skills.map((skill, index) => {
 
-                    return <div className={` skill-card`} style={{ 'width': barWidth }}>
+                    return <div className={` skill-card`} style={{ 'width': barWidth }} key={index}>
                             <span className="px-2 skill-name text-gray-100 ">{skill.type}</span>
                             <div className={` score-container mt-3 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700`}>
                                 <div className={`${inView ? `skills-delay-${i++}` : 'skills-delay-before'} bg-blue-600 h-1.5 rounded-full dark:bg-blue-500 `} style={{'width': skill.level}} ></div>

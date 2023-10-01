@@ -7,7 +7,7 @@ const VideoBackground = () => {
     useEffect(() => {
         setOverlayClass('overlay-2nd')
     }, [])
-    console.log(Videos)
+    // console.log(Videos)
     const randomInt = (min, max) => { // min and max included 
         return Math.floor(Math.random() * (max - min + 1) + min)
     }

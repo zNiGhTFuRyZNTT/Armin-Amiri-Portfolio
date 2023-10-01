@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 const SideBar = ({inViews}) => {
-    console.log(inViews);
+    // console.log(inViews);
     return (
         <div className="sidebar fixed z-30 top-0 left-0 rounded-full ml-5 top-50 translate-y-60 w-16 flex flex-col justify-center  navbar-bg-color text-white shadow-lg">
 

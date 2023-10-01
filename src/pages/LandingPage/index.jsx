@@ -72,7 +72,7 @@ const LandingPage = () => {
 
     // const summaryInView = useIntersection(summaryRef, '-5px')
     // console.log(greetingInView, infoCardInView);
-    console.log(inViews);
+    // console.log(inViews);
 
     return (
       <>
@@ -109,7 +109,7 @@ const LandingPage = () => {
 
               <div ref={skillsRef} className="skills-root-container">
                 <h1 className="cert-header mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
-                  <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
+                  <span className="underline underline-offset-3 decoration-8 decoration-blue-600">
                     Skills
                   </span>
                 </h1>
@@ -118,7 +118,7 @@ const LandingPage = () => {
 
             {/* < -- Certificates -- >  */}
             <div ref={certificatesRef} className="certifications-container-root">
-              <h1 className="cert-header mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"><span class="underline underline-offset-3 decoration-8 decoration-blue-600">Certificates</span></h1>
+              <h1 className="cert-header mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"><span className="underline underline-offset-3 decoration-8 decoration-blue-600">Certificates</span></h1>
               <Certifications inView={certificatesInView} />
             </div>
             {/* < -- end -- >  */}
@@ -133,7 +133,7 @@ const LandingPage = () => {
             
             {/* < -- Project -- >  */}
             <div ref={projectCardRef} className="projects-container mt-5 dark">
-              <h1 className="cert-header mb-10 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"><span class="underline underline-offset-3 decoration-8 decoration-blue-600">Projects</span></h1>
+              <h1 className="cert-header mb-10 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"><span className="underline underline-offset-3 decoration-8 decoration-blue-600">Projects</span></h1>
               <Projects inView={projectCardInView} />
             </div>
             {/* < -- end -- >  */}

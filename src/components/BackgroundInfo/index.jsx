@@ -6,13 +6,13 @@ const BackgroundInfo = () => {
         <div className="flex flex-wrap justify-center text-center px-3 bg-white">
             <div className="w-full lg:w-9/12 px-4">
                 <h1 className="comment-header mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-                    <span class="underline underline-offset-3 decoration-4 decoration-blue-500">
+                    <span className="underline underline-offset-3 decoration-4 decoration-blue-500">
                         My Background
                     </span>
                 </h1>
                 <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                     <span className=" mb-4 text-xl w-10 font-bold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-3xl">
-                        <span class="underline underline-offset-3 decoration-3 decoration-blue-600">
+                        <span className="underline underline-offset-3 decoration-3 decoration-blue-600">
                             A
                         </span>
                     </span>

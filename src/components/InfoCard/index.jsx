@@ -56,14 +56,14 @@ return (
                 <div className=" mt-10 py-10 border-t border-blueGray-200 text-center">
                     <div className="mb-5 flex flex-wrap justify-center text-center ">
                         <div className=" bg-info-txt-container w-full lg:w-9/12 px-4">
-                            <styledWord word={"Armin"} />
+                            {/* <styledWord word={"Armin"} /> */}
                             <p className="bg-info-description text-left ml-9 text-md leading-relaxed text-blueGray-700">
 
-                                <p className="flex flex-row bg-info-nametitle mb-4 text-xl w-full font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
-                                    <span class="underline underline-offset-3 decoration-8 decoration-blue-600">
+                                <span className="flex flex-row bg-info-nametitle mb-4 text-xl w-full font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+                                    <span className="underline underline-offset-3 decoration-8 decoration-blue-600">
                                         I'm Armin
                                     </span>
-                                </p>
+                                </span>
 
                                 
                                 a dedicated software developer with expertise in Python, JavaScript, and Node. My passion for programming ignited during my early teenage years and has only grown stronger since then. Guided by my thirst for knowledge and problem-solving skills, I immersed myself in Python for two years, honing my skills with tireless determination.
