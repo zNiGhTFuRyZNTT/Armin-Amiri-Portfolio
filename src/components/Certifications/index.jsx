@@ -8,13 +8,14 @@ import algorithmicPyImg from '../../assets/images/certifications/python-algorith
 import objPythonImg from '../../assets/images/certifications/python-obj.jpg'
 import reactImg from '../../assets/images/certifications/react.jpg'
 import cImg from '../../assets/images/certifications/c.png'
+import TypeScriptImg from '../../assets/images/certifications/TypeScript.jpg'
 import certificatesObjs from './info.json'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
 
 const Certifications = ( {inView} ) => {
-    const certificatesImgs = [harvardProImg, harvardNormalImg, cImg, reactImg, djangoImg, algorithmicPyImg, objPythonImg, frontEndImg]
+    const certificatesImgs = [harvardProImg, harvardNormalImg, cImg, reactImg, djangoImg,TypeScriptImg, algorithmicPyImg, objPythonImg, frontEndImg]
     let i = 0
     return (
         <div className={` ${inView ? "cert-transition" : "cert-ziresh"} certifications-container dark `}>

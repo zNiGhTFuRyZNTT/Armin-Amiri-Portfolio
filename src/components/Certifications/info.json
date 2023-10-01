@@ -1,7 +1,7 @@
 [
     {
         "name": "Harvard University - CS50W Web Programming Course Professional Certificate",
-        "description": "Advanced web programming with Python and Javascript, using Django and vanilla JavaScript",
+        "description": "Advanced Project-Oriented Web Programming with Python and Javascript, including frameworks such as Django",
         "certUrl": "https://courses.edx.org/certificates/0540f2b5e3284d6a8cd145d66211569b"
     },
     {
@@ -23,6 +23,11 @@
         "name": "Quera Advanced Back-End Course with Django Framework",
         "description": "Advanced Project-Oriented Back-End development course using Django Framework.",
         "certUrl": "https://quera.org/certificate/axhV0uZQ/"
+    },
+    {
+        "name": "Advanced Development with TypeScript",
+        "description": "Advanced Project-Oriented Course in Development with TypeScript in Node/React.",
+        "certUrl": "https://quera.org/certificate/608goOVr/"
     },
     {
         "name": "Quera Python problem-solving and algorithmic thinking course",
