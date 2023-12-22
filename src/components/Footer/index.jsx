@@ -1,12 +1,13 @@
 import './index.scss'
 import NemesisTeamLogo from '../../assets/images/NEMESISTEAMLOGO.jpg'
+import AsvaranLogo from '../../assets/images/GoldenAsvaranLogoMoreDistant.png'
 const Footer = () => {
     return (
         <footer className="p-4 mt-10 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <a className="flex items-center mb-4 sm:mb-0">
-                    <img src={NemesisTeamLogo} className="mr-3 h-8 rounded-full" alt="Flowbite Logo" />
-                    <span className="self-center org-name text-2xl font-semibold whitespace-nowrap dark:text-white">NEMESIS TEAM</span>
+                    <img src={AsvaranLogo} className="mr-3 h-8 rounded-full" alt="Flowbite Logo" />
+                    <span className="self-center org-name text-2xl font-semibold whitespace-nowrap dark:text-white">ASVARAN GROUP</span>
                 </a>
                 <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>
