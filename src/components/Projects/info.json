@@ -30,11 +30,6 @@
         "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Discord-Moderation-Bot"
     },
     {
-        "name": "Superology",
-        "description": "a simple telegram robot which sends random porn video depending on the chosen category. e.g. user sends /bdsm and the bot will randomly upload one for him/her. :)",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Superology"
-    },
-    {
         "name": "Vpn creator telegram bot",
         "description": "This script uses a previously created script which installs open-vpn-server on the linux server and automates it in the way that the user creating and revoking can be controlled through the telegram bot. e.g the admin generates a one-time key and gives it to a user, by the user providing the key to the robot, the robot creates a new user specified for the user and sends the config file to him/her.",
         "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Vpn-Create"

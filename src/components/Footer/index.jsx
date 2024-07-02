@@ -11,7 +11,7 @@ const Footer = () => {
                 </a>
                 <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>
-                        <a href="https://t.me/nemesisdevteam" className="mr-4 hover:underline md:mr-6 ">Telegram</a>
+                        <a href="https://t.me/asvarangroup" className="mr-4 hover:underline md:mr-6 ">Telegram</a>
                     </li>
                     <li>
                         <a href="https://instagram.com/asvaransecurity" className="mr-4 hover:underline md:mr-6">Instagram</a>
