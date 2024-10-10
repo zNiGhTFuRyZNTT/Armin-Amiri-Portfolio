@@ -94,7 +94,7 @@ return (
 
                         <span className="flex flex-row bg-info-nametitle mb-4 text-xl w-full font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
                             <span className="underline underline-offset-3 decoration-8 decoration-blue-600">
-                                I'm MR. Robot
+                                I'm Armin
                             </span>
                         </span>
 
