@@ -43,5 +43,10 @@
         "name": "Fundamentals of Front-End Development",
         "description": "Fundamentals of Front-End web development using html, css, Vanilla JavaScript, and JQuery.",
         "certUrl": "https://quera.org/certificate/COad3c6N/"
+    },
+    {
+        "name": "Professional Project-Oriented Course in LLM Application Development",
+        "description": "Advanced Project Oriented Course in LLM Application Development using Langchain and other related technologies.",
+        "certUrl": "https://quera.org/certificate/tRRxdoGP/"
     }
 ]
