@@ -1,28 +1,62 @@
 import React from "react";
 import './index.scss'
 import ProjectsList from './info.json'
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 const Projects = ({inView}) => {
     let i = 0
 
     return (
-        <div className="projects-inner-container">
-            {ProjectsList.map((project, index) => {
-                return <div key={index} className={`project-card p-6 max-w-sm ${inView ? `delay-${i++}` : 'delay-before'} bg-gray-100 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700`}>
-                    <a>
-                        <h5 className=" card-title mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{project.name}</h5>
-                    </a>
-                    <p className=" card-description mb-3 font-normal text-gray-700 dark:text-gray-400">{project.description}</p>
-                    <a target="_blank" href={project.projectUrl} className=" inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        View on Github
-                        <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                    </a>
-                </div>
-            })}
-        </div>
+        <div className="projects-container">
+            <div className="projects-grid">
+                {ProjectsList.map((project, index) => {
+                    return (
+                        <div 
+                            key={index} 
+                            className={`project-card ${inView ? `delay-${i++}` : 'delay-before'}`}
+                        >
+                            {/* Image Section */}
+                            <div className="project-image-container">
+                                {project.image ? (
+                                    <img 
+                                        src={project.image} 
+                                        alt={project.name}
+                                        className="project-image"
+                                    />
+                                ) : (
+                                    <div className="project-image-placeholder">
+                                        <FaGithub className="placeholder-icon" />
+                                    </div>
+                                )}
+                            </div>
 
+                            {/* Content Section */}
+                            <div className="project-content">
+                                <h5 className="project-title">
+                                    {project.name}
+                                </h5>
+                                <p className="project-description">
+                                    {project.description}
+                                </p>
+
+                                {/* Action Button */}
+                                <a 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    href={project.projectUrl} 
+                                    className="project-link"
+                                >
+                                    <FaGithub className="link-icon" />
+                                    View on GitHub
+                                    <FaExternalLinkAlt className="external-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        </div>
     )
 }
-// className={`cert-card ${inView ? `delay-${i++}` : 'delay-before'}
 
 export default Projects;

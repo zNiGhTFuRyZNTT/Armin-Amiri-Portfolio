@@ -16,21 +16,20 @@ const BackgroundInfo = () => {
                             A
                         </span>
                     </span>
-                    s a full-stack developer with expertise in React JS and Django,
-                     I bring a wealth of knowledge and experience to the table. In 
-                     addition to my extensive programming background, I hold several 
-                     certifications, including Harvard's CS50W Web Programming, as 
-                     well as Fundamentals of C Programming Language, and multiple 
-                     Python certifications from Quera.
-                    But don't take my word for it - take a look at some of my recent projects. 
-                    For instance, I developed a Telegram bot that retrieves audio files from 
-                    YouTube in under three seconds. And if you're interested in cybersecurity, 
-                    check out my Reverse Shell Tool. This project establishes a highly encrypted 
-                    WebSocket connection to a target machine and allows me to execute shell commands 
-                    on that machine - all while bypassing firewalls.
-                    So, whether you need a top-notch developer to build your next project or someone 
-                    who can help you keep your system secure, I've got you covered. Reach out to me today
-                     to discuss your needs and find out how I can help you succeed.
+                    s a full-stack developer, I work with React and Django to build web applications 
+                    that actually solve problems. Recently, I created the UniHacked AI Chatbot platform—a 
+                    Django backend paired with a React/TypeScript frontend, complete with WebSockets for 
+                    real-time chat and AI model integration. I also built Nelody, a Telegram music bot 
+                    that pulls audio from YouTube, SoundCloud, and other platforms, with support for 6 languages.
+                    
+                    I've worked with local businesses too, building websites for Hairport Barber and Bond 
+                    Street Barbery that helped them get more bookings and better connect with customers. 
+                    I've got certifications from Harvard (CS50W Web Programming), Sharif University (C Programming), 
+                    and Quera (React TypeScript, Django, Python), but honestly, what matters most is that I can 
+                    build things that work.
+                    
+                    If you're looking for someone to build your next project or just want to chat about what's 
+                    possible, feel free to reach out. I'm always down to work on something interesting.
                 </p>
             </div>
         </div>

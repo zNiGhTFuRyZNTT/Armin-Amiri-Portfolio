@@ -60,7 +60,7 @@ return (
                     <div className="flex flex-col mt-3 sm:mt-6 items-center mb-2 w-full text-blueGray-600">
                         <div className="flex items-center">
                             <FontAwesomeIcon icon={faUniversity} className="mr-2 text-lg text-blueGray-400" />
-                            <h1 className="text-xs sm:text-lg">Studying at <span className="font-medium whitespace-nowrap">Swinburne University</span></h1>
+                            <h1 className="text-xs sm:text-lg">Graduated from <span className="font-medium whitespace-nowrap">Swinburne University</span></h1>
                         </div>
                     </div>
 
@@ -74,7 +74,7 @@ return (
                 <div className="codeblock">
                     <CopyBlock
                         language="js"
-                        text={'//Work Availability\n let available = true \n// Programming Languages\n ["Javascript", "Python"].forEach(language => `${language} Developer`)\n // Spoken Languages\n const spokenLangs = ["Persian", "English"]\n // Work and Eduaction\n let [educationStatus, workStatus] = ["Recent graduate", "Unemployed"]\n // Contact Details \n const contactDetails = {\nphoneNum: "+61403444370",\n email: "arminamiri11228@gmail.com"\n}\n // Contact me through phone or email for any inquiries or job oportunities'}
+                        text={'//Work Availability\n let available = true \n// Programming Languages\n ["Javascript", "Python"].forEach(language => `${language} Developer`)\n // Spoken Languages\n const spokenLangs = ["Persian", "English"]\n // Work and Education\n let [educationStatus, workStatus] = ["Bachelor\'s in Computer Science", "Open to Work"]\n // Contact Details \n const contactDetails = {\nphoneNum: "+61403444370",\n email: "arminamiri11228@gmail.com"\n}\n // Contact me through phone or email for any inquiries or job oportunities'}
                         showLineNumbers={true}
                         theme={dracula}
                         wrapLines={true}
@@ -98,13 +98,13 @@ return (
                             </span>
                         </span>
 
-                        A dedicated software developer with expertise in Python, JavaScript, and Node. My passion for programming ignited during my early teenage years and has only grown stronger since then. Guided by my thirst for knowledge and problem-solving skills, I immersed myself in Python for two years, honing my skills with tireless determination.
+                        I'm a full-stack developer based in Melbourne who builds web applications that people actually use. I got into programming as a teenager, starting with Python and eventually finding my way to JavaScript and React. Turns out I really love web development, especially when I get to work on projects that make a difference.
 
-                        As I continued to learn and explore, I discovered the beauty of JavaScript, captivated by its unique syntax and industry relevance. My interest in Node led me to learn JavaScript directly, and I quickly gained proficiency in the language. Although I initially thought I disliked web development, my outlook changed after I discovered React, which shifted my path towards a career in web development.
+                        I recently graduated from Swinburne University with a Bachelor's in Computer Science, and I've spent that time building real projects—like the UniHacked AI Chatbot platform with Django and React, the Nelody music bot that supports 6 languages, and websites for local businesses like Hairport Barber and Bond Street Barbery. I work with React, TypeScript, Django, Node.js, Firebase, and PostgreSQL—basically whatever tech stack makes the most sense for the project.
 
-                        I'm based in Melbourne and have a strong passion for coding. My coding record speaks for itself, with a staggering 13-hour stretch of uninterrupted work and only brief 10-minute breaks. My expertise and dedication to programming make me a valuable asset to any organization, and I'm constantly seeking new challenges and opportunities to grow.
+                        I've had my share of long coding sessions (my record is 13 hours straight with only 10-minute breaks—probably not my healthiest moment), but what I really care about is writing clean code that solves actual problems. I'm looking for opportunities where I can contribute, learn, and build things that matter.
 
-                        If you're searching for a talented software developer with a strong work ethic and a passion for programming, look no further. I'm currently seeking new opportunities to further develop my skills, and I welcome any job opportunities that align with my abilities. If you're interested in collaborating, don't hesitate to contact me.
+                        If you're working on something interesting or need someone who can hit the ground running, let's talk. I'm open to work and always happy to chat about what we could build together.
                     </p>
                 </div>
             </div>

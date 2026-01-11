@@ -2,41 +2,37 @@
     {
         "name": "This Project",
         "description": "You can find the source code of this project on my Github repository. It is written in React and styles are powered by Tailwind Css and Flowbite Plugin. Feel free to change it and use it for your own portfolio and improve it.",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/my-personal-portfolio-website"
+        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/my-personal-portfolio-website",
+        "image": ""
     },
     {
         "name": "Nelody",
         "description": "Telegram music bot, takes text or youtube url as query and returns the audio file to the user with the best quality possible. Already has +3k active users.",
-        "projectUrl" : "https://github.com/zNiGhTFuRyZNTT/Telegram-Music-Bot"
+        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Telegram-Music-Bot",
+        "image": ""
     },
     {
         "name": "Advanced Reverse Shell script",
         "description": "This script works on the client side and establishes a highly encrypted websocket connection with the attacker and gives the access to the targets windows CMD.",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Reverse_shell"
-    },
-    {
-        "name": "InstaSucker",
-        "description": "takes user's instagram username and password and a target username and retrieves its information. e.g posts details, urls etc.",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/InstaSucker"
-    },
-    {
-        "name": "Student Management Program",
-        "description": "My final C project for fundamentals of C programming language course of Sharif University",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Student-Management-Program"
+        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Reverse_shell",
+        "image": ""
     },
     {
         "name": "Discord Moderation Bot",
-        "description": "logs any media that has been sent to any public text channel of the Discord server into a admin only permited text channel with buttons to react. e.g delete the post, ban or limit the sender, ignore. This bot uses a user account token to do these jobs. the user token must have administrator access. ",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Discord-Moderation-Bot"
+        "description": "logs any media that has been sent to any public text channel of the Discord server into a admin only permited text channel with buttons to react. e.g delete the post, ban or limit the sender, ignore. This bot uses a user account token to do these jobs. the user token must have administrator access.",
+        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Discord-Moderation-Bot",
+        "image": ""
     },
     {
-        "name": "Vpn creator telegram bot",
+        "name": "Automated VPN client creator Telegram bot",
         "description": "This script uses a previously created script which installs open-vpn-server on the linux server and automates it in the way that the user creating and revoking can be controlled through the telegram bot. e.g the admin generates a one-time key and gives it to a user, by the user providing the key to the robot, the robot creates a new user specified for the user and sends the config file to him/her.",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Vpn-Create"
+        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/Vpn-Create",
+        "image": ""
     },
     {
         "name": "create-telebot-app",
         "description": "A CLI app which generates a boilerplate telegram bot project which uses telebot as its main module. It comes with built-in administration system, pre-made commands, Sqlite3 database, Automatic user management in database and user blacklist.",
-        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/create-telebot-app"
+        "projectUrl": "https://github.com/zNiGhTFuRyZNTT/create-telebot-app",
+        "image": ""
     }
 ]

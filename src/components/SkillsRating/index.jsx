@@ -30,6 +30,7 @@ const SkillsRating = ({inView, windowSize}) => {
         { type: 'JavaScript', level: 100/100 * barWidth },
         { type: 'TypeScript', level: 100/100 * barWidth },
         { type: 'C', level: 70/100 * barWidth },
+        { type: 'Firebase', level: 100/100 * barWidth },
 
         { type: 'Django', level: 80/100 * barWidth },
         { type: 'React Js', level: 90/100 * barWidth },
