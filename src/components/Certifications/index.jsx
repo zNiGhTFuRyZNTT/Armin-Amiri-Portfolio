@@ -16,7 +16,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 
 const Certifications = ( {inView} ) => {
-    const certificatesImgs = [harvardProImg, harvardNormalImg, cImg, reactImg, djangoImg,TypeScriptImg, algorithmicPyImg, objPythonImg, frontEndImg]
+    const certificatesImgs = [harvardProImg, harvardNormalImg, cImg, reactImg, djangoImg,TypeScriptImg, algorithmicPyImg, objPythonImg, frontEndImg, LLMImg]
     let i = 0
     return (
         <div className={` ${inView ? "cert-transition" : "cert-ziresh"} certifications-container dark `}>
