@@ -11,6 +11,8 @@ import {
     Projects,
     SkillsRating,
     Footer,
+    Hero,
+    AnimatedHeroSection,
 } from "../../components";
 import { ClipLoader  } from 'react-spinners';
 import useIntersection from '../../hooks/useIntersection'
@@ -25,7 +27,7 @@ const LandingPage = () => {
     // Simulating the delay of loading data
     const timeout = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 600);
 
     return () => clearTimeout(timeout)
   }, []);
@@ -93,6 +95,13 @@ const LandingPage = () => {
     }, []);
     // < -- End -- >
 
+    // Scroll to info card section
+    const scrollToFeatures = () => {
+      const infoSection = document.querySelector('.info-cards');
+      if (infoSection) {
+        infoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    };
 
     return (
       <>
@@ -116,22 +125,9 @@ const LandingPage = () => {
             */}
             <SquareBackground />
 
-            <div ref={refs.greetings} className="greetings">
-              {/*
-              VideoBackground 
-                Display the video as the background 
-              */}
-              <VideoBackground />
-
-              <div className={"center"}>
-                {/*
-                 Loooping over the texts to be shown on the landing page
-                 to go to the array search G0 in this code.
-                 */}
-                {greetings.map((item, index) => (
-                  <AnimatedLetters delay={item.delay} strArray={item.text.split("")} idx={3} key={index} />
-                ))}
-              </div>
+            {/* New Animated Hero Section */}
+            <div ref={refs.greetings}>
+              <AnimatedHeroSection onScrollToFeatures={scrollToFeatures} />
             </div>
               
 

@@ -8,6 +8,8 @@ import BackgroundInfo from './BackgroundInfo';
 import Projects from './Projects';
 import SkillsRating from './SkillsRating';
 import Footer from './Footer';
+import Hero from './Hero';
+import { AnimatedHeroSection } from './AnimatedHeroSection';
 
 export { 
     VideoBackground ,
@@ -19,6 +21,8 @@ export {
     BackgroundInfo, 
     Projects,
     SkillsRating,
-    Footer
+    Footer,
+    Hero,
+    AnimatedHeroSection
 
 }
